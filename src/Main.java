@@ -26,7 +26,7 @@ public class Main {
 		myhome.ac.switch_button(off);
 		myhome.fan.switch_button(on);
 		
-		myhome.ac.temperatureup();
+		myhome.ac.temperatureeup();
 		
 		myhome.tv.switch_button(on);
 		myhome.tv.channel(610);
@@ -40,7 +40,7 @@ public class Main {
 		System.out.println("\tfan is " +myhome.fan.status());
 		
 		System.out.println("\ttv channel is " +myhome.tv.channel);
-		System.out.println("\ttv volume is " +myhome.tv.volume);
+		System.out.println("\ttv volume is " +myhome.tv.tvvolume);
 		
 		System.out.println("\twashing machine is "+myhome.washing_machine.status());
 		

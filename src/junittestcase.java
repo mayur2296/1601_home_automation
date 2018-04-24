@@ -29,7 +29,7 @@ public class junittestcase {
 		myhome.ac.switch_button(off);
 		myhome.fan.switch_button(on);
 		
-		myhome.ac.temperatureup();
+		myhome.ac.temperatureeup();
 		
 		myhome.tv.switch_button(on);
 		myhome.tv.channel(610);

@@ -3,7 +3,7 @@ public class Tv {
 
 	public String button;
 	public int channel;
-	public int volume=0;
+	public int tvvolume=0;
 	public Tv()
 	{
 		button="off";
@@ -31,11 +31,11 @@ public class Tv {
 	}
 	public void volumeup()
 	{
-		volume=volume+1;
+		tvvolume=tvvolume+1;
 	}
 	public void volumedown()
 	{
-		volume=volume+1;
+		tvvolume=tvvolume+1;
 	}
 	
 	public String status()

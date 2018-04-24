@@ -25,7 +25,14 @@ public class Ac {
 	{
 		data.temperature=str;
 	}
+	/**
+	 * @deprecated Use {@link #temperatureeup()} instead
+	 */
 	public void temperatureup()
+	{
+		temperatureeup();
+	}
+	public void temperatureeup()
 	{
 		data.temperature=data.temperature+1;
 	}
