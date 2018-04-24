@@ -1,23 +1,23 @@
 
 public class Fan {
 
-	public String button;
+	public FanData data = new FanData();
 	public Fan()
 	{
-		button="off";
+		data.button="off";
 	}
 	public Fan(String str)
 	{
-		button=str;
+		data.button=str;
 	}
 	public void switch_button(String str)
 	{
-		button=str;
+		data.button=str;
 	}
 	
 	public String status()
 	{
-		return button;
+		return data.button;
 	}
 	
 }

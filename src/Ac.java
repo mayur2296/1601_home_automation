@@ -1,35 +1,41 @@
 
 public class Ac {
 
-	public String button;
-	public int temperature=0;
+	public AcData data = new AcData(0);
 	public Ac()
 	{
-		button="off";
+		data.button="off";
 	}
+	/**
+	 * @deprecated Use {@link #Ac(String,Object)} instead
+	 */
 	public Ac(String str)
 	{
-		button=str;
+		this(str, null);
+	}
+	public Ac(String str, Object newParam)
+	{
+		data.button=str;
 	}
 	public void switch_button(String str)
 	{
-		button=str;
+			data.button=str;
 	}
 	public void temperature(int str)
 	{
-		temperature=str;
+		data.temperature=str;
 	}
 	public void temperatureup()
 	{
-		temperature=temperature+1;
+		data.temperature=data.temperature+1;
 	}
 	public void temperaturedown()
 	{
-		temperature=temperature+1;
+		data.temperature=data.temperature+1;
 	}
 	public String status()
 	{
-		return button;
+		return data.button;
 	}
 	
 }
