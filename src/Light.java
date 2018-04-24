@@ -16,6 +16,7 @@ public class Light {
 	}
 	public String status()
 	{
+		
 		return button;
 	}
 	
