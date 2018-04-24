@@ -37,7 +37,6 @@ public class Main {
 		//to track the status
 		System.out.println("=====STATUS OF DEVICES======\n");
 		System.out.println("\ttv is " +myhome.tv.status());
-		System.out.println("\tac is " +myhome.ac.status());
 		System.out.println("\tfan is " +myhome.fan.status());
 		
 		System.out.println("\ttv channel is " +myhome.tv.channel);
