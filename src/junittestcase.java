@@ -8,6 +8,7 @@ public class junittestcase {
 	public void test() {
 		// TODO Auto-generated method stub
 		String on="on";
+		
 		String off="off";
 		
 		//creating devices

@@ -6,6 +6,8 @@ public class Main {
 		String on="on";
 		String off="off";
 		
+		
+		
 		//creating devices
 		Light light=new Light();
 		Washing_machine washing_machine=new Washing_machine();

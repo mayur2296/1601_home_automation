@@ -2,6 +2,7 @@
 public class Washing_machine {
 
 	public String button;
+	
 	public Washing_machine()
 	{
 		button="off";

@@ -19,6 +19,7 @@ public class Tv {
 	public void channel(int str)
 	{
 		channel=channel;
+		
 	}
 	public void channelup()
 	{
